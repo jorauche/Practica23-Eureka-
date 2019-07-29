@@ -28,4 +28,5 @@ public class Application {
 	public RestTemplate loadBalancedRestTemplate() {
 		return new RestTemplate();
 	}*/
+	
 }
