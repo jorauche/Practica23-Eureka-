@@ -12,8 +12,19 @@ Maven
 Levantar todos los microservices
 Primero server, user, uppercase, random
 
----
+```
 mvn clean package
 mvn spring-boot:run
 
----
+```
+
+### perfiles
+
+Se creo los tres perfiles 
+
+
+```
+local
+ribbon-api
+load-balanced-rest-template
+```
