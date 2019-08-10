@@ -9,13 +9,20 @@ Practica 23 de microservicio, donde el age-microservice manda a llamar por una p
 
 ### pasos para su ejecucion
 
-Levantar todos los microservices
-Primero server, user, uppercase, random
+despues de tener ambientado todo, necesitamos levantar de uno en uno los microservicios , como se explica acontinuación
+
+Primero server, que es el servidor Eureka
+
 
 ```
+Posicionar en la ruta D:\AMBIENTESTRABAJO\PROYECTOFINALGIT\25-Eureka-Server 
+Se ejecuta el siguiente comando para compilar
 mvn clean package
+
+Posteriormete lo levantamos que va ser por el puerto 9099 , contexto : /my-eureka-server
 mvn spring-boot:run
 
+link : http://localhost:9099/my-eureka-server/
 ```
 
 ### perfiles
