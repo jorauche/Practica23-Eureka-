@@ -3,8 +3,8 @@ Practica 23 de microservicio, donde el age-microservice manda a llamar por una p
 
 
 ### requesitos
-*java 8
-*Maven
+* java 8
+* Maven
 
 
 ### pasos para su ejecucion
