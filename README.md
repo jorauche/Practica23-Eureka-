@@ -25,21 +25,66 @@ mvn spring-boot:run
 link : http://localhost:9099/my-eureka-server/
 ```
 
-Despues levantamos el siguiente microservicio que es Practica23-Eureka-\23-Age-Microservice
+Despues levantamos el siguiente microservicio que es 23-Age-Microservice
 
 
 ```
-Posicionar en la ruta D:\AMBIENTESTRABAJO\PROYECTOFINALGIT\25-Eureka-Server 
+Posicionar en la ruta Practica23-Eureka-\23-Age-Microservice
+
 Se ejecuta el siguiente comando para compilar
 mvn clean package
 
-Posteriormete lo levantamos que va ser por el puerto 9099 , contexto : /my-eureka-server
+Levantamos el microservicio con el siguiente comando
 mvn spring-boot:run
 
 Cuando se levante se va registrar ese microservicio en el servidor de eureka
 
 ```
 
+Levantamos el siguiente microservicio que es 23-Random-Microservice
+
+
+```
+Posicionar en la ruta Practica23-Eureka-\23-Random-Microservice 
+Se ejecuta el siguiente comando para compilar
+mvn clean package
+
+Levantamos el microservicio con el siguiente comando
+mvn spring-boot:run
+
+Cuando se levante se va registrar ese microservicio en el servidor de eureka
+
+```
+
+Levantamos el siguiente microservicio que es 23-Uppercase-Microservice
+
+
+```
+Posicionar en la ruta 23-Uppercase-Microservice
+Se ejecuta el siguiente comando para compilar
+mvn clean package
+
+Levantamos el microservicio con el siguiente comando
+mvn spring-boot:run
+
+Cuando se levante se va registrar ese microservicio en el servidor de eureka
+
+```
+
+
+Levantamos el siguiente microservicio que es 23-Users-Microservice
+
+```
+Posicionar en la ruta \Practica23-Eureka-\23-Users-Microservice
+Se ejecuta el siguiente comando para compilar
+mvn clean package
+
+Levantamos el microservicio con el siguiente comando
+mvn spring-boot:run
+
+Cuando se levante se va registrar ese microservicio en el servidor de eureka
+
+```
 
 
 ### perfiles
